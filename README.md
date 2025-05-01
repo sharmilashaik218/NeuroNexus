@@ -15,6 +15,9 @@ This project is an internship registration form that allows users to input their
 - CSS
 - Google Fonts (Poppins)
 
+  ![Internship Form output](Screenshot%202025-05-01%20193554.png)
+
+
 ## Installation
 
 1. Clone the repository:
