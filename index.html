@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NeuroNexus Internship Form</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Internship Registration</h2>
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+
+      <label for="phone">Contact Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="e.g. 9876543210" required />
+
+      <label for="address">Address</label>
+      <textarea id="address" name="address" rows="3" placeholder="Enter your address" required></textarea>
+
+      <label for="company">Company Name</label>
+      <input type="text" id="company" name="company" placeholder="Your company/institution" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="e.g. name@example.com" required />
+
+      <label for="department">Department</label>
+      <select id="department" name="department" required>
+        <option value="">-- Select Department --</option>
+        <option value="HR">HR</option>
+        <option value="Sales">Sales</option>
+        <option value="Development">Development</option>
+        <option value="Marketing">Marketing</option>
+        <option value="Others">Others</option>
+      </select>
+
+      <label>Gender</label>
+<div class="radio-group">
+  <label><input type="radio" name="gender" value="Male" required /> Male</label>
+  <label><input type="radio" name="gender" value="Female" /> Female</label>
+  <label><input type="radio" name="gender" value="Prefer not to say" /> Prefer not to say</label>
+</div>
+
+
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
