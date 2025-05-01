@@ -15,7 +15,8 @@ This project is an internship registration form that allows users to input their
 - CSS
 - Google Fonts (Poppins)
 
-  ![Internship Form output](Screenshot%202025-05-01%194438.png)
+  ![Internship form output](https://github.com/sharmilashaik218/NeuroNexus/blob/main/Screenshot%202025-05-01%20194438.png)
+
 
 
 
